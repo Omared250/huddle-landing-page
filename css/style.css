@@ -6,6 +6,29 @@
     --color-decoration-2: hsl(300, 69%, 71%);
 }
 
+/*-----body setups-------*/
+
 body {
     background-color: var(--color-decoration-1);
+}
+
+#image-mobile-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/*-----individual setups------*/
+
+#logo {
+    position: relative;
+    width: 35%;
+    margin: 5% 0 0 10%;
+}
+
+#illustration-mockups {
+    position: relative;
+    width: 83%;
+    margin: 19% 7% 0 10%;
 }
