@@ -19,6 +19,25 @@ body {
     width: 100%;
 }
 
+#image-desktop-background {
+    display: none;
+}
+
+@media(min-width: 1024px) {
+    #image-mobile-background {
+        display: none;
+    }
+
+    #image-desktop-background {
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 90%;
+        height: 100%;
+    }
+}
+
 /*-----information setups------*/
 
 #logo {
@@ -27,10 +46,24 @@ body {
     margin: 5% 0 0 10%;
 }
 
+@media(min-width: 1024px) {
+    #logo {
+        width: 15%;
+        margin: 3% 0 0 4%;
+    }
+}
+
 #illustration-mockups {
     position: relative;
     width: 83%;
     margin: 19% 7% 0 10%;
+}
+
+@media(min-width: 1024px) {
+    #illustration-mockups {
+        width: 51%;
+        margin: 6% 0 0 3%;
+    }
 }
 
 .box-information {
@@ -41,6 +74,15 @@ body {
     color: white;
 }
 
+@media(min-width: 1024px) {
+    .box-information {
+        position: relative;
+        margin: -420px 0 0 530px;
+        width: 500px;
+        text-align: left;
+    }
+}
+
 .box-information h1 {
     width: 83%;
     margin-top: 15%;
@@ -49,11 +91,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media(min-width: 1024px) {
+    .box-information h1 {
+        width: 80%;
+        font-size: 30px;
+    }
+}
+
 .box-information p {
     width: 83%;
     margin: 0 0 8% 0;
     font-size: 15.5px;
     font-family: 'Open Sans', monospace;
+}
+
+@media(min-width: 1024px) {
+    .box-information p {
+        width: 80%;
+        font-size: 13.5px;
+    }
 }
 
 .box-information #button {
@@ -69,6 +125,14 @@ body {
 .box-information #button:hover {
     color: white;
     background-color: var(--color-decoration-2);
+}
+
+@media(min-width: 1024px) {
+    .box-information #button {
+        width: 30%;
+        height: 42px;
+        margin: -20px 0 0 -245px;
+    }
 }
 
 .box-information a {
@@ -87,6 +151,12 @@ body {
     flex-direction: row;
     justify-content: center;
     color: white;
+}
+
+@media(min-width: 1024px) {
+    #box-icon {
+        margin: 13% 0 0 79%;
+    }
 }
 
 #facebook-icon {
@@ -135,4 +205,10 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--color-decoration-2);
+}
+
+@media(min-width: 1024px) {
+    footer {
+        display: none;
+    }
 }
