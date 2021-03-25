@@ -108,3 +108,16 @@ body {
     border: 1px solid white;
     border-radius: 50%;
 }
+
+/*-----footer setup------*/
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-decoration-2);
+}
