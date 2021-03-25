@@ -96,6 +96,11 @@ body {
     border-radius: 50%;
 }
 
+#facebook-icon:hover {
+    color: var(--color-decoration-2);
+    border: 1px solid var(--color-decoration-2);
+}
+
 #twitter-icon {
     margin-right: 12px;
     padding: 5px 8px;
@@ -103,10 +108,20 @@ body {
     border-radius: 50%;
 }
 
+#twitter-icon:hover {
+    color: var(--color-decoration-2);
+    border: 1px solid var(--color-decoration-2);
+}
+
 #github-icon {
     padding: 5px 8px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+#github-icon:hover {
+    color: var(--color-decoration-2);
+    border: 1px solid var(--color-decoration-2);
 }
 
 /*-----footer setup------*/
