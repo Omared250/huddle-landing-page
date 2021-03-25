@@ -62,7 +62,14 @@ body {
 @media(min-width: 1024px) {
     #illustration-mockups {
         width: 51%;
-        margin: 6% 0 0 3%;
+        margin: 3% 0 0 3%;
+    }
+}
+
+@media(min-width: 1440px) {
+    #illustration-mockups {
+        width: 51%;
+        margin: 5% 0 0 3%;
     }
 }
 
@@ -76,10 +83,18 @@ body {
 
 @media(min-width: 1024px) {
     .box-information {
-        position: relative;
-        margin: -420px 0 0 530px;
+        position: absolute;
+        top: 14%;
+        left: 52%;
         width: 500px;
         text-align: left;
+    }
+}
+
+@media(min-width: 1440px) {
+    .box-information {
+        top: 20%;
+        left: 59%;
     }
 }
 
@@ -98,6 +113,13 @@ body {
     }
 }
 
+@media(min-width: 1440px) {
+    .box-information h1 {
+        width: 110%;
+        font-size: 35px;
+    }
+}
+
 .box-information p {
     width: 83%;
     margin: 0 0 8% 0;
@@ -112,6 +134,13 @@ body {
     }
 }
 
+@media(min-width: 1440px) {
+    .box-information p {
+        width: 110%;
+        font-size: 18px;
+    }
+}
+
 .box-information #button {
     display: flex;
     flex-direction: column;
@@ -123,7 +152,6 @@ body {
 }
 
 .box-information #button:hover {
-    color: white;
     background-color: var(--color-decoration-2);
 }
 
@@ -143,6 +171,10 @@ body {
     color: var(--color-decoration-1);
 }
 
+.box-information a:hover {
+    color: white;
+}
+
 /*--------icon setups-------*/
 
 #box-icon {
@@ -155,7 +187,9 @@ body {
 
 @media(min-width: 1024px) {
     #box-icon {
-        margin: 13% 0 0 79%;
+        position: absolute;
+        top: 81%;
+        left: 83%;
     }
 }
 
