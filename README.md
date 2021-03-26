@@ -29,7 +29,7 @@ You all can find the preview of the page in the Design folder, where you can gui
 ### Links
 
 - Repository URL: https://github.com/Omared250/huddle-landing-page
-- Live Site URL: https://single-price-grid-component-lime-two.vercel.app/
+- Live Site URL: https://huddle-landing-page-lake-seven.vercel.app/
 
 ## My process
 
